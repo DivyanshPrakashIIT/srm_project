@@ -1,0 +1,10 @@
+﻿__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+srm_project/__pycache__/
+srm_project/checkpoints/
+srm_project/outputs/
+srm_project/vector_outputs/
+srm_project/data/raw_tiles/
