@@ -8,3 +8,5 @@ srm_project/checkpoints/
 srm_project/outputs/
 srm_project/vector_outputs/
 srm_project/data/raw_tiles/
+
+srm_project/*.pt
