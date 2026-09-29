@@ -1,0 +1,8 @@
+# Owners: A4/A5. Diffusion sampling and ensembling live inside forward().
+name: m2
+scale: 4
+in_channels: 4
+out_channels: 4
+diffusion_timesteps: 100
+mc_samples: 4          # must be >= 2 (defect D4)
+attention: {mode: full, max_resolution: 32}   # defect D5

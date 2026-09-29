@@ -1,0 +1,33 @@
+# CODEOWNERS: last matching pattern wins. Replace @srm-aN with real GitHub handles.
+# A0 Integrator | A1,A2 data | A3,A4,A5 models/train | A6 eval | A7 apps | A8 serve | A9 web
+
+# Default and governance: A0 reviews everything not listed below
+*                       @srm-a0
+/CONTRACTS.md           @srm-a0
+/DECISIONS.md           @srm-a0
+/STATE.md               @srm-a0
+/CODEOWNERS             @srm-a0
+/Makefile               @srm-a0
+/environment.yml        @srm-a0
+/pyproject.toml         @srm-a0
+/.github/               @srm-a0
+/srm/contracts.py       @srm-a0
+/srm/legacy/            @srm-a0
+/srm/docs/              @srm-a0
+/tests/test_contracts.py @srm-a0
+/tests/test_e2e*.py     @srm-a0
+/tests/conftest.py      @srm-a0
+
+# Workstreams
+/srm/data/              @srm-a1 @srm-a2
+/configs/data.yaml      @srm-a1 @srm-a2
+/srm/models/            @srm-a3 @srm-a4 @srm-a5
+/srm/train/             @srm-a3 @srm-a4 @srm-a5
+/configs/model_m1.yaml  @srm-a3 @srm-a4
+/configs/model_m2.yaml  @srm-a4 @srm-a5
+/srm/eval/              @srm-a6
+/configs/eval.yaml      @srm-a6
+/srm/apps/              @srm-a7
+/srm/serve/             @srm-a8
+/configs/serve.yaml     @srm-a8
+/srm/web/               @srm-a9

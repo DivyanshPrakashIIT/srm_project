@@ -1,0 +1,8 @@
+# Owners: A3/A4. Output must be dict(sr, logvar) (CONTRACTS C4).
+name: m1
+scale: 4
+in_channels: 4
+out_channels: 4
+base_channels: 64
+num_blocks: 23
+uncertainty_head: true

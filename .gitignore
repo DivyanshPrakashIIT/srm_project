@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+srm_project/__pycache__/
+srm_project/checkpoints/
+srm_project/outputs/
+srm_project/vector_outputs/
+srm_project/data/raw_tiles/
+
+srm_project/*.pt
+
+# monorepo additions
+.pytest_cache/
+.ruff_cache/
+data/raw_tiles/
+checkpoints/
+outputs/
+*.pt

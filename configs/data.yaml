@@ -1,0 +1,9 @@
+# Owners: A1/A2. Must obey CONTRACTS C1-C3.
+bands: [B2, B3, B4, B8]
+scale: 4
+reflectance_scale: 10000.0
+train: {lr_size: 32, hr_size: 128}
+infer: {lr_size: 64, sr_size: 256}
+augment: {flip: true, rot90: true, spectral_shuffle_prob: 0.0}   # ADR-0002: must stay 0
+degradation: {blur_sigma_range: [0.3, 1.6], noise_std_range: [0.0, 0.01]}
+paths: {raw_tiles: data/raw_tiles, scl_masks: data/scl_masks}

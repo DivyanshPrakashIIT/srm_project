@@ -1,0 +1,18 @@
+# Sentinel-2 SRM pipeline — dependencies
+# Install PyTorch separately first if you need a specific CUDA build, see README.
+
+# --- Core DL ---
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+
+# --- Phase 1: geospatial I/O ---
+rasterio>=1.3
+
+# --- Phase 3: instance segmentation ---
+ultralytics>=8.3
+
+# --- Phase 4: scientific / vector evaluation ---
+scipy>=1.11
+geopandas>=0.14
+shapely>=2.0

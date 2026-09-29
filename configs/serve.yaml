@@ -1,0 +1,3 @@
+# Owner: A8. Product format per CONTRACTS C5.
+tile: {lr_size: 64, sr_size: 256}
+product: {driver: COG, dtype: float32, bands: 5, compress: DEFLATE, predictor: 3}

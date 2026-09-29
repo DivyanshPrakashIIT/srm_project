@@ -1,0 +1,4 @@
+# Owner: A6.
+metrics: [psnr, ssim, lpips]
+uncertainty: {min_samples: 2}
+max_val: 1.0
